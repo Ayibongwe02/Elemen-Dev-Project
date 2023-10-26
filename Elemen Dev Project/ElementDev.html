@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+  <link rel="shortcut icon" type="images/icon.png" href="images\icon.png" />
+</head>
+<html style="font-size: 16px;" lang="en"><head>
+
+  <style>
+
+    #content {
+       opacity: 0; /* Content should be invisible initially */
+       transition: opacity 2s  ease-in; /* Add transition to content */
+   }
+   
+   #loader {
+       position: fixed;
+       left: 0;
+       top: 0;
+       width: 100%;
+       height: 100%;
+       z-index: 9999; /* Loader should be on top initially */
+       background: url('images/can you make my design animation.gif') 50% 50% no-repeat rgb(224, 221, 230);
+       background-size: cover;
+       opacity: 2; /* Loader should be visible initially */
+       transition: opacity 2s  ease-in; /* Add transition to loader */
+   }
+   
+   #overlay {
+       position: fixed;
+       left: 0;
+       top: 0;
+       width: 100%;
+       height: 100%;
+       z-index: 9998; /* Overlay should be below the loader initially */
+       background-color: black;
+       opacity: 0; /* Overlay should be invisible initially */
+       transition: opacity 2s  ease-in;
+   }
+       </style>
+     <div id="loader"></div>
+     <div id="overlay"></div>
+     <div id="contents"></div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>ElementDev</title>
+    <link rel="stylesheet" href="site.css" media="screen">
+<link rel="stylesheet" href="ElementDev.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="site.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.19.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "ElementDev",
+		"logo": "images/Design1.png",
+		"sameAs": [
+				"https://www.facebook.com/profile.php?id=61552359920068&mibextid=ZbWKwL",
+				"https://instagram.com/elementdevza?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+		]
+}</script>
+    <meta name="theme-color" content="#a37fdf">
+    <meta property="og:title" content="ElementDev">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" class="u-body u-overlap u-overlap-transparent u-xl-mode" data-lang="en"><header class="u-align-center-sm u-align-center-xs u-clearfix u-header" id="sec-d402" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="ElementDev.html" class="u-align-left-xs u-image u-logo u-image-1" data-image-width="1080" data-image-height="1080">
+          <img src="images/Design1.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-align-right-xs u-menu u-menu-hamburger u-offcanvas u-menu-1" data-responsive-from="XL" data-submenu-level="on-click">
+          <div class="menu-collapse" style="font-size: 1rem; font-weight: 700; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-left-right-menu-spacing u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-white" href="#" style="background-image: none;">
+              <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8a8f"></use></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-8a8f" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content"><g><rect y="36" width="302" height="30"></rect><rect y="236" width="302" height="30"></rect><rect y="136" width="302" height="30"></rect>
+</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-20 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-palette-5-light-1 u-border-3 u-border-active-black u-border-grey-75 u-border-hover-palette-1-light-1 u-button-style u-nav-link u-radius-50 u-text-active-black u-text-hover-palette-2-base u-text-white" href="ElementDev.html" style="padding: 10px;">Home</a>
+</li><li class="u-nav-item"><a class="u-active-palette-5-light-1 u-border-3 u-border-active-black u-border-grey-75 u-border-hover-palette-1-light-1 u-button-style u-nav-link u-radius-50 u-text-active-black u-text-hover-palette-2-base u-text-white" style="padding: 10px;">ElementDev Services</a><div class="u-nav-popup"><ul class="u-h-spacing-21 u-nav u-unstyled u-v-spacing-13 u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="ElementDev-Web.html">ElementDev Web</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-white" href="ElementDev-UI.html">ElementDev UI</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-active-palette-5-light-1 u-border-3 u-border-active-black u-border-grey-75 u-border-hover-palette-1-light-1 u-button-style u-nav-link u-radius-50 u-text-active-black u-text-hover-palette-2-base u-text-white" href="ElementDev-Contact.html" rel="nofollow" style="padding: 10px;">Contact</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-align-center u-black u-border-10 u-border-custom-color-3 u-container-style u-inner-container-layout u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-spacing-20 u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="ElementDev.html">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">ElementDev Services</a><div class="u-nav-popup"><ul class="u-h-spacing-21 u-nav u-unstyled u-v-spacing-13 u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="ElementDev-Web.html">ElementDev Web</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="ElementDev-UI.html">ElementDev UI</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="ElementDev-Contact.html" rel="nofollow">Contact</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-align-center u-clearfix u-container-align-center u-section-1" id="sec-8da1">
+      <div class="u-carousel u-expanded-width u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-on-hover u-gallery-1" id="carousel-f283" data-interval="1750" data-u-ride="carousel">
+        <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+          <li data-u-target="#carousel-f283" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+          <li data-u-target="#carousel-f283" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+        </ol>
+        <div class="u-carousel-inner u-gallery-inner" role="listbox">
+          <div class="u-active u-carousel-item u-effect-fade u-effect-hover-zoom u-gallery-item u-carousel-item-1" data-href="ElementDev-Web.html" rel="nofollow">
+            <div class="u-back-slide" data-image-width="1024" data-image-height="672">
+              <img class="u-back-image u-expanded" src="images/ev82h1l3.png">
+            </div>
+            <div class="u-align-center u-over-slide u-shading u-valign-middle u-over-slide-1">
+              <h3 class="u-gallery-heading">WEB DEVELOPMENT</h3>
+              <p class="u-gallery-text" style="font-size: 1.5rem;">We can help you build a new audience.<br>Tap to view our Web Services
+              </p>
+            </div>
+          </div>
+          <div class="u-carousel-item u-effect-fade u-effect-hover-zoom u-gallery-item u-carousel-item-2" data-image-width="3000" data-image-height="2000" data-href="ElementDev-UI.html" rel="nofollow">
+            <div class="u-back-slide" data-image-width="1920" data-image-height="1280">
+              <img class="u-back-image u-expanded" src="images/indonov44.jpg" alt=" UI Designing">
+            </div>
+            <div class="u-align-center u-over-slide u-shading u-valign-middle u-over-slide-2">
+              <h3 class="u-gallery-heading"> UI Designing</h3>
+              <p class="u-gallery-text" style="font-size: 1.5rem;">Lets us help you create and design the most unique, user friendly designs and interface.<br>Tap to view our Designing Services
+              </p>
+            </div>
+            <style data-mode="XL" data-visited="true"></style>
+            <style data-mode="LG" data-visited="true"></style>
+            <style data-mode="MD"></style>
+            <style data-mode="SM"></style>
+            <style data-mode="XS" data-visited="true"></style>
+          </div>
+        </div>
+        <a class="u-absolute-vcenter-lg u-absolute-vcenter-md u-absolute-vcenter-sm u-absolute-vcenter-xl u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-f283" role="button" data-u-slide="prev">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+          </span>
+          <span class="sr-only">
+            <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+          </span>
+        </a>
+        <a class="u-absolute-vcenter-lg u-absolute-vcenter-md u-absolute-vcenter-sm u-absolute-vcenter-xl u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-f283" role="button" data-u-slide="next">
+          <span aria-hidden="true">
+            <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+          </span>
+          <span class="sr-only">
+            <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+          </span>
+        </a>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-custom-color-3 u-uploaded-video u-section-2" id="carousel_d2df">
+      
+      
+      
+      
+      
+      <h2 class="u-align-center u-text u-text-white u-text-1"> Project Development Easier from&nbsp;<br>Start to Finish
+      </h2>
+      <p class="u-align-center u-text u-text-body-alt-color u-text-default-lg u-text-default-md u-text-default-xl u-text-2">At&nbsp; ElementDev we offer unprecendented value, reliability, and support to project partners.</p>
+      <div class="u-expanded-width u-palette-1-base u-shape u-shape-rectangle u-shape-1"></div>
+      <div class="u-align-center u-layout-grid u-list u-list-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+        <div class="u-align-center-xs u-repeater u-repeater-1">
+          <div class="custom-expanded u-border-8 u-border-custom-color-4 u-container-style u-hover-box u-hover-feature u-list-item u-radius-50 u-repeater-item u-shape-round u-list-item-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="0" data-href="#">
+            <div class="u-back-slide u-black u-container-layout u-opacity u-opacity-25 u-similar-container u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img src="images/6712857.png" alt=""></span>
+              <h3 class="u-align-center u-text u-text-default u-text-3">Consult</h3>
+              <p class="u-align-center u-text u-text-4">Our consulting process involves different tools and technologies, such as web frameworks, web builders, web design software, web testing tools, web security tools.</p>
+            </div>
+          </div>
+          <div class="custom-expanded u-border-8 u-border-custom-color-4 u-container-style u-hover-box u-hover-feature u-list-item u-radius-50 u-repeater-item u-shape-round u-list-item-2" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="0" data-href="#">
+            <div class="u-back-slide u-black u-container-layout u-opacity u-opacity-25 u-similar-container u-container-layout-2"><span class="u-file-icon u-icon u-icon-2"><img src="images/3940059.png" alt=""></span>
+              <h3 class="u-align-center u-text u-text-default u-text-5">Design</h3>
+              <p class="u-align-center u-text u-text-6">Our Desigining process aims at designing Quality&nbsp; prototypes and being in&nbsp; regular&nbsp; contact&nbsp; with our clients .</p>
+            </div>
+          </div>
+          <div class="custom-expanded u-border-8 u-border-custom-color-4 u-container-style u-hover-box u-hover-feature u-list-item u-radius-50 u-repeater-item u-shape-round u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="0" data-href="#">
+            <div class="u-back-slide u-black u-container-layout u-opacity u-opacity-25 u-similar-container u-container-layout-3"><span class="u-file-icon u-icon u-icon-3"><img src="images/2881142.png" alt=""></span>
+              <h3 class="u-align-center u-text u-text-default u-text-7">Develop</h3>
+              <p class="u-align-center u-text u-text-8">Our Development&nbsp; process aims at&nbsp; delivering Quality Web products for our Client.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="ElementDev-Process.html" class="u-align-center-xs u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-hover-white u-text-white u-btn-1">Our Process<span class="u-icon u-text-black u-icon-4"><svg class="u-svg-content" viewBox="0 -32 426.66667 426" style="width: 1em; height: 1em;"><path d="m213.332031 181.667969c0 4.265625-1.277343 8.53125-3.625 11.730469l-106.667969 160c-3.839843 5.761718-10.238281 9.601562-17.707031 9.601562h-64c-11.730469 0-21.332031-9.601562-21.332031-21.332031 0-4.269531 1.28125-8.535157 3.625-11.734375l98.773438-148.265625-98.773438-148.269531c-2.34375-3.199219-3.625-7.464844-3.625-11.730469 0-11.734375 9.601562-21.335938 21.332031-21.335938h64c7.46875 0 13.867188 3.839844 17.707031 9.601563l106.667969 160c2.347657 3.199218 3.625 7.464844 3.625 11.734375zm0 0"></path><path d="m426.667969 181.667969c0 4.265625-1.28125 8.53125-3.628907 11.730469l-106.664062 160c-3.839844 5.761718-10.242188 9.601562-17.707031 9.601562h-64c-11.734375 0-21.335938-9.601562-21.335938-21.332031 0-4.269531 1.28125-8.535157 3.628907-11.734375l98.773437-148.265625-98.773437-148.269531c-2.347657-3.199219-3.628907-7.464844-3.628907-11.730469 0-11.734375 9.601563-21.335938 21.335938-21.335938h64c7.464843 0 13.867187 3.839844 17.707031 9.601563l106.664062 160c2.347657 3.199218 3.628907 7.464844 3.628907 11.734375zm0 0"></path></svg></span>
+      </a>
+    </section>
+    <section class="u-align-center u-clearfix u-container-align-center u-grey-10 u-section-3" id="sec-bec0">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-1"> We are Researchers. Designers.<br>&nbsp;Engineers.&nbsp;Innovators.
+        </h2>
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-col">
+              <div class="u-size-30">
+                <div class="u-layout-row">
+                  <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-20 u-image-1" data-image-width="626" data-image-height="417">
+                    <div class="u-container-layout u-container-layout-1"></div>
+                  </div>
+                  <div class="u-container-align-center u-container-style u-layout-cell u-palette-5-light-1 u-size-20 u-layout-cell-2">
+                    <div class="u-container-layout u-container-layout-2">
+                      <h3 class="u-align-center u-text u-text-2"> Who We Are</h3>
+                      <p class="u-align-center u-text u-text-3"> We are a web solutions company founded by three college Individuals with expertise in business marketing &amp; development, web designing &amp; development, and software engineering. Our team is dedicated to providing high-quality services in web development, application development, UX/UI designing, and website revamp.</p>
+                    </div>
+                  </div>
+                  <div class="u-container-align-center u-container-style u-image u-image-default u-layout-cell u-size-20 u-image-2" data-image-width="1920" data-image-height="1280">
+                    <div class="u-container-layout u-container-layout-3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-size-30">
+                <div class="u-layout-row">
+                  <div class="u-container-align-center u-container-style u-custom-color-3 u-layout-cell u-size-20 u-layout-cell-4">
+                    <div class="u-container-layout u-valign-middle u-container-layout-4">
+                      <h3 class="u-align-center u-text u-text-4"> Our Mission</h3>
+                      <p class="u-align-center u-text u-text-5"> Our mission at ElementDev is to empower businesses with top-notch web solutions that help them thrive in the digital age. We are dedicated to creating innovative and user-friendly solutions that meet the unique needs of our clients. Our passion for technology, combined with our commitment to excellence, drives us to deliver exceptional results and build long-lasting relationships with our clients. We strive to be a trusted partner in helping businesses achieve their goals and succeed in the online world.</p>
+                    </div>
+                  </div>
+                  <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-20 u-image-3" data-image-width="1625" data-image-height="1080">
+                    <div class="u-container-layout u-container-layout-5"></div>
+                  </div>
+                  <div class="u-container-align-center u-container-style u-custom-color-3 u-layout-cell u-size-20 u-layout-cell-6">
+                    <div class="u-container-layout u-container-layout-6">
+                      <h3 class="u-align-center u-text u-text-6">Our Goal</h3>
+                      <p class="u-align-center u-text u-text-7">Our goal at ElementDev is to provide top-notch web solutions that help businesses thrive in the digital age. We are dedicated to creating innovative and user-friendly solutions that meet the unique needs of our clients. Our passion for technology, combined with our commitment to excellence, drives us to deliver exceptional results and build long-lasting relationships with our clients. We strive to be a trusted partner in helping businesses achieve their goals and succeed in the online world.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-border-12 u-border-grey-90 u-clearfix u-custom-color-3 u-uploaded-video u-section-4" id="carousel_e658">
+      <div class="u-clearfix u-sheet u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-sheet-1">
+        <h2 class="u-text u-text-default u-text-white u-text-1">Meet the DevTeam...</h2>
+        <p class="u-text u-text-white u-text-2">Our team is committed to making a positive impact for our clients, their users, and our community.</p>
+        <div class="u-expanded-width u-layout-grid u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-radius-10 u-repeater-item u-shape-round u-white u-list-item-1">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <div class="u-container-style u-group u-shape-rectangle u-group-1">
+                  <div class="u-container-layout u-container-layout-2"><span class="u-file-icon u-icon u-text-palette-1-light-2 u-icon-1"><img src="images/59149-207ff6b7.png" alt=""></span>
+                    <h5 class="u-align-center-lg u-align-center-md u-align-center-sm u-align-left-xl u-align-left-xs u-custom-item u-text u-text-3">Katlego Mfekane<br>
+                      <span style="text-decoration: underline !important;">
+                        <br>Business Developer
+                      </span>
+                    </h5>
+                  </div>
+                </div>
+                <div alt="" class="u-border-7 u-border-palette-1-base u-image u-image-circle u-image-1" data-image-width="128" data-image-height="128"></div>
+                <p class="u-align-left u-text u-text-4">I&nbsp; work closely with clients to understand their needs and provide them with customized didgital and web development solutions that meet their specific requirements.&nbsp;</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-radius-10 u-repeater-item u-shape-round u-white u-list-item-2">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <div class="u-container-style u-group u-shape-rectangle u-group-2">
+                  <div class="u-container-layout u-container-layout-4"><span class="u-file-icon u-icon u-text-palette-1-light-2 u-icon-2"><img src="images/59149-207ff6b7.png" alt=""></span>
+                    <h5 class="u-align-center-lg u-align-center-md u-align-center-sm u-align-left-xl u-align-left-xs u-custom-item u-text u-text-5">Ayibongwe Ndhlovu<span style="text-decoration: underline !important;">
+                        <br>
+                        <br>Web Developer&nbsp;
+                      </span>
+                      <br>
+                      <br>
+                    </h5>
+                  </div>
+                </div>
+                <div alt="" class="u-border-7 u-border-palette-1-base u-image u-image-circle u-image-2" data-image-width="128" data-image-height="128"></div>
+                <p class="u-align-left u-text u-text-6">By providing clients with end-to-end web development services, As a developer, I&nbsp; help to ensure their satisfaction and foster long-term relationships.</p>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-radius-10 u-repeater-item u-shape-round u-white u-list-item-3">
+              <div class="u-container-layout u-similar-container u-container-layout-5">
+                <div class="u-container-style u-group u-shape-rectangle u-group-3">
+                  <div class="u-container-layout u-container-layout-6"><span class="u-file-icon u-icon u-text-palette-1-light-2 u-icon-3"><img src="images/59149-207ff6b7.png" alt=""></span>
+                    <h5 class="u-align-center-lg u-align-center-md u-align-center-sm u-align-left-xl u-align-left-xs u-custom-item u-text u-text-7"> Bhavya Vidhu<br>
+                      <br>
+                      <span style="text-decoration: underline !important;">Software Engineer</span>
+                    </h5>
+                  </div>
+                </div>
+                <div alt="" class="u-border-7 u-border-palette-1-base u-image u-image-circle u-image-3" data-image-width="128" data-image-height="128"></div>
+                <p class="u-align-left u-text u-text-8">&nbsp;Being&nbsp; proficient in a variety of programming languages and technologies, and I am&nbsp; able to develop, test, and deploy applications that are robust, scalable, and user-friendly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-6d3f"><div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <h3 class="u-text u-text-default-xl u-text-1">WEB DEVELOPMENT SERVICES</h3>
+                <ul class="u-custom-font u-custom-item u-font-playfair-display u-text u-text-default u-text-2">
+                  <li>Full Stack Development</li>
+                  <li>Front-End Develpoment</li>
+                  <li>Back-End Development</li>
+                  <li>Hosting &amp; Maintanence</li>
+                </ul>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <h3 class="u-text u-text-default-xl u-text-3">UI&nbsp; DESIGNING SERVICES</h3>
+                <ul class="u-custom-font u-custom-item u-font-playfair-display u-text u-text-default u-text-4">
+                  <li>UI Designing</li>
+                  <li>UX Designing</li>
+                  <li>Graphic Desiging</li>
+                  <li>Print Desiging</li>
+                </ul>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <h3 class="u-text u-text-default-xl u-text-5">CONTACT TEAM</h3>
+                <ul class="u-custom-font u-custom-item u-font-playfair-display u-text u-text-default u-text-6">
+                  <li>Ayibongwe.Ndhlovu@elementdev.co.za</li>
+                  <li>Bhavya.Vidhu@elementdev.co.za</li>
+                  <li>katlego.mfekane@elementdev.co.za<br>
+                  </li>
+                  <li>info@elementdev.co.za</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-4">
+                  <h2 class="u-text u-text-default u-text-7">Follow us</h2>
+                </div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-valign-middle u-container-layout-5">
+                  <div class="u-social-icons u-spacing-28 u-social-icons-1">
+                    <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=61552359920068&amp;mibextid=ZbWKwL"><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112.196 112.196" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-194c"></use></svg><svg class="u-svg-content" viewBox="0 0 112.196 112.196" x="0px" y="0px" id="svg-194c" style="enable-background:new 0 0 112.196 112.196;"><g><circle style="fill:currentColor;" cx="56.098" cy="56.098" r="56.098"></circle><path style="fill:#FFFFFF;" d="M70.201,58.294h-10.01v36.672H45.025V58.294h-7.213V45.406h7.213v-8.34   c0-5.964,2.833-15.303,15.301-15.303L71.56,21.81v12.51h-8.151c-1.337,0-3.217,0.668-3.217,3.513v7.585h11.334L70.201,58.294z"></path>
+</g></svg></span>
+                    </a>
+                    <a class="u-social-url" target="_blank" data-type="Instagram" title="Instagram" href="https://instagram.com/elementdevza?utm_source=qr&amp;igshid=MzNlNGNkZWQ4Mg%3D%3D"><span class="u-icon u-social-icon u-social-instagram u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7eb4"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-7eb4"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
+            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
+            C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
+            c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
+                    </a>
+                    <a class="u-social-url" target="_blank" data-type="LinkedIn" title="LinkedIn" href=""><span class="u-icon u-social-icon u-social-linkedin u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0e51"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0e51"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M41.3,83.7H27.9V43.4h13.4V83.7z M34.6,37.9L34.6,37.9c-4.6,0-7.5-3.1-7.5-7c0-4,3-7,7.6-7s7.4,3,7.5,7
+            C42.2,34.8,39.2,37.9,34.6,37.9z M89.6,83.7H76.2V62.2c0-5.4-1.9-9.1-6.8-9.1c-3.7,0-5.9,2.5-6.9,4.9c-0.4,0.9-0.4,2.1-0.4,3.3v22.5
+            H48.7c0,0,0.2-36.5,0-40.3h13.4v5.7c1.8-2.7,5-6.7,12.1-6.7c8.8,0,15.4,5.8,15.4,18.1V83.7z"></path></svg></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></footer>
+      <script>
+        document.onreadystatechange = function () {
+          var state = document.readyState;
+          if (state == 'interactive') {
+               document.getElementById('contents').style.visibility="hidden";
+          } else if (state == 'complete') {
+              setTimeout(function(){
+                 document.getElementById('interactive');
+                 document.getElementById('loader').style.display="none";
+                 document.getElementById('overlay').style.zIndex="10000"; /* Overlay should be on top after loader disappears */
+                 document.getElementById('overlay').style.opacity="1"; /* Overlay should become visible */
+                 setTimeout(function(){
+                    document.getElementById('overlay').style.opacity="1"; /* Overlay should fade out */
+                    setTimeout(function(){
+                       document.getElementById('overlay').style.display="none";
+                       document.getElementById('contents').style.visibility="visible";
+                    }, 1);
+                 }, 1);
+              },2000);
+          }
+        }
+        </script>
+  
+</body></html>
